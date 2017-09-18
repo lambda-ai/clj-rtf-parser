@@ -1,5 +1,6 @@
 (ns clj-rtf-parser.core
-  (:require [clojure.java.io :as io])
+  (:require [clojure.java.io :as io]
+            [clojure.string :as cstr])
   (:import [com.rtfparserkit.parser RtfStreamSource]
            [com.rtfparserkit.parser.standard StandardRtfParser]
            [com.rtfparserkit.converter.text StringTextConverter]))
