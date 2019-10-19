@@ -1,4 +1,4 @@
-(defproject clj-rtf-parser "0.1.0"
+(defproject clj-rtf-parser "0.1.1"
   :description "Tiny clojure wrapper and copy of the code from https://github.com/joniles/rtfparserkit"
   :url "https://github.com/lambda-ai/clj-rtf-parser"
   :license {:name "Eclipse Public License"

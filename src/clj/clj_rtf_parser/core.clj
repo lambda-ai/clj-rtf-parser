@@ -34,4 +34,4 @@
    without a space or different delimiter in-between. This function adds
    it back."
   [rtf-string]
-  (cstr/replace rtf-string #"(\\par(?!arsid[0-9]+))" "$1 "))
+  (cstr/replace rtf-string #"(\\par(?!(arsid[0-9]+)|d\\))" "$1 "))
